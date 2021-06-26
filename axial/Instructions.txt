@@ -1,0 +1,16 @@
+# Installing the requirements and running the scripts:
+
+step 0 : Create a conda/virtual environment and install the correct version of the cuda toolkit
+
+step 1 : Run the following in the terminal. 
+         python setup.py bdist_wheel
+
+step 2 : python -m pip install dist/name.whl ----> "replace name with actual file name created in the dist folder" - will install all the requirements.
+
+step 3 : Modify the the files in the folder as required. 
+         args_train.json and args_test.json contain the arguments such as path to data, model etc. A complete discription of the files and their respective functionalities
+         is included in the README file.
+
+step 4 : Run train_json.py on the terminal to start training. 
+
+step 5 : Similarly, run the predict_json.py file for inference.

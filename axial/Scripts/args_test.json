@@ -1,0 +1,12 @@
+{
+   "model" : "GuidedPix2Pix",
+   "save_path_add" :  "GPP_q3",
+   "test_data_path" :  "./ctdata/Resampled_Vols/",
+   "height": 256,
+   "width": 256,
+   "weights_path" : "./Out/spine_q3_gpp/weights/gen_weights_epoch_10.h5",
+   "q" : 3,
+   "image_guide": false,
+   "mask_guide" : true,
+   "test_baseline" : false
+}
